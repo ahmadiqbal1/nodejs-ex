@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\public",
+    "\\public\\tests",
+    "\\services"
   ],
-  "SelectedNode": "\\variables.env",
+  "SelectedNode": "\\services\\newman.js",
   "PreviewInSolutionExplorer": false
 }
