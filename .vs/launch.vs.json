@@ -1,0 +1,16 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "services\\newman.js",
+      "name": "newman.js"
+    },
+    {
+      "type": "nodeDbg",
+      "name": "newman.js(1)",
+      "project": "services\\newman.js"
+    }
+  ]
+}
