@@ -70,6 +70,8 @@ function onError(error) {
     }
 }
 
+
+
 /**
  * Event listener for HTTP server "listening" event
  */
@@ -78,10 +80,12 @@ function onListening() {
     const uri = typeof addr === 'string' ? addr : `http://localhost:${addr.port}`
     console.log(`Listening on ${uri}`)
 }
+/**
 
-const newman = require('newman');
+*/
+const newman = require('newman'); // require newman in your project
 
-
+// call newman.run to pass `options` object and wait for callback
 newman.run({
     collection: require('./../public/tests/iem.json'),
     reporters: 'cli'

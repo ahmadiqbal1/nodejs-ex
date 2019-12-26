@@ -70,6 +70,8 @@ function onError(error) {
     }
 }
 
+
+
 /**
  * Event listener for HTTP server "listening" event
  */
@@ -78,14 +80,11 @@ function onListening() {
     const uri = typeof addr === 'string' ? addr : `http://localhost:${addr.port}`
     console.log(`Listening on ${uri}`)
 }
+/**
 
-const newman = require('newman');
 
 
-newman.run({
-    collection: require('./../public/tests/iem.json'),
-    reporters: 'cli'
-}, function(err) {
-    if (err) { throw err; }
-    console.log('collection run complete!');
-});
+
+
+
+*/

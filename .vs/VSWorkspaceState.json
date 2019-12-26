@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\lib",
     "\\public",
     "\\public\\tests",
-    "\\services"
+    "\\services",
+    "\\views"
   ],
   "PreviewInSolutionExplorer": false
 }
