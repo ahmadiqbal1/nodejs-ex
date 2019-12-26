@@ -33,6 +33,7 @@
     "lodash": "^4.17.5",
     "marked": "^0.3.16",
     "morgan": "^1.9.1",
+    "newman": "^4.5.7",
     "pug": "~2.0.0-beta6"
   },
   "devDependencies": {
