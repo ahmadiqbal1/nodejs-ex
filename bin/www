@@ -5,6 +5,8 @@
  */
 const app = require('../app')
 const http = require('http')
+const request = require('request');
+
 
 /**
  * Get port from environment and store in Express
@@ -76,16 +78,20 @@ function onError(error) {
 function onListening() {
     const addr = server.address()
     const uri = typeof addr === 'string' ? addr : `http://localhost:${addr.port}`
+
+
+
+
     console.log(`Listening on ${uri}`)
 }
 
-const newman = require('newman');
 
 
-newman.run({
-    collection: require('./../public/tests/iem.json'),
-    reporters: 'cli'
-}, function(err) {
-    if (err) { throw err; }
-    console.log('collection run complete!');
-});
+
+
+
+
+const uniqueUrls = require('./../services/unique.js');
+
+
+ const results = require('./../services/runx3.js');
